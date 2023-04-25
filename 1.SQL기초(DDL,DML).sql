@@ -44,7 +44,7 @@ SELECT *FROM TB_EMP;
 DROP TABLE TB_EMP_COPY;
 
 -- TRUNCATE table
--- 구조는 냅두곡 내부 데이터만 전체 삭제(이것도 복구 안됨)
+-- 구조는 그대로 두고 내부 데이터만 전체 삭제(이것도 복구 안됨)
 TRUNCATE TABLE tb_emp_copy;
 
 -- 예시테이블
