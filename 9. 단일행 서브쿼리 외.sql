@@ -8,7 +8,7 @@
 SELECT 
     emp_no, emp_nm, dept_cd
 FROM tb_emp
-WHERE dept_cd = '100004'
+WHERE dept_cd = '100004'8.집합연산자UNION 외
 ;
 
 -- 사원이름이 '이나라'인 사람이 속해 있는 부서의 사원정보 조회
